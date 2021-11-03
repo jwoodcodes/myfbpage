@@ -1,0 +1,51 @@
+// .header {
+//   &__name {
+//     margin-left: 12rem;
+//     position: absolute;
+//     animation-name: initialName;
+//     animation-duration: 1s;
+//     animation-timing-function: ease-out;
+//   }
+
+//   &__since {
+//     position: relative;
+//     top: 5rem;
+//     left: 52rem;
+//   }
+// }
+
+.menuContainer {
+  min-height: 22vh;
+  width: 22%;
+  height: 23%;
+  padding: 1rem;
+  margin: 25rem;
+  // position: fixed;
+  // top: 33rem;
+  // left: 26rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &__items {
+    display: flex;
+    align-items: center;
+    padding: 0.7rem;
+
+    &:hover {
+      transform: translateY(-0.25rem);
+
+      &:hover .menuContainer__icons {
+        transform: rotateY(360deg);
+      }
+    }
+  }
+
+  &__icons {
+    fill: $color-main-white;
+    height: 4rem;
+    width: 4rem;
+    padding-right: 0.9rem;
+    transition: all 0.8s;
+  }
+}

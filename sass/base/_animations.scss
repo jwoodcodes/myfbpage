@@ -1,0 +1,29 @@
+@keyframes initialName {
+  0% {
+    opacity: 0;
+    transform: translateX(-8rem);
+  }
+
+  80% {
+    transform: translateX(1rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes menuBoop {
+  0% {
+    transform: rotate(0);
+  }
+
+  50% {
+    transform: rotate(0.1turn);
+  }
+
+  100% {
+    transform: rotate(0);
+  }
+}

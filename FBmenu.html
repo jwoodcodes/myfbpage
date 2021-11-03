@@ -1,0 +1,1052 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/app.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Besley:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <title>Flatbranch Menu</title>
+  </head>
+  <body class="food__body">
+    <div class="menunav">
+      <svg class="menunav__icon-active">
+        <use xlink:href="img/sprite.svg#icon-circle-up"></use>
+      </svg>
+      <svg class="menunav__icon">
+        <use xlink:href="img/sprite.svg#icon-menu"></use>
+      </svg>
+    </div>
+
+    <div class="menunav__overlay menunav__overlay--hidden"></div>
+
+    <div class="popoutMenu__container">
+      <div class="popoutMenu__item">
+        <a href="/">Home</a>
+      </div>
+      <div class="popoutMenu__item">
+        <a href="/FBbeer.html">Beer</a>
+      </div>
+      <div class="popoutMenu__item">
+        <a href="/FBmenu.html">Menu</a>
+      </div>
+
+      <div class="popoutMenu__item">
+        <a href="/FBshop.html">Shop</a>
+      </div>
+      <div class="popoutMenu__item">
+        <a href="/FBabout.html">About</a>
+      </div>
+    </div>
+
+    <div class="siteheader">
+      <img
+        src="https://www.flatbranch.com/wp-content/themes/flatbranch/img/logo2.png"
+        alt=""
+        class="siteheader__img"
+      />
+      <p class="siteheader__text">From Scratch Menu</p>
+      <p>"</p>
+    </div>
+
+    <svg class="foodmenu__types--arrow-close">
+      <use xlink:href="img/sprite.svg#icon-circle-up"></use>
+    </svg>
+
+    <main class="foodmenu">
+      <ul class="foodmenu__types">
+        <li class="foodmenu__types--option op-app food__open">
+          <span class="foodmenu__types--name">Appetizers</span>
+          <svg class="foodmenu__types--arrow">
+            <use xlink:href="img/sprite.svg#icon-circle-down"></use>
+          </svg>
+        </li>
+
+        <!-- Appetizers -->
+
+        <ul
+          class="
+            foodmenu__gridcontainer foodmenu__gridcontainer--app
+            food__hidden
+          "
+        >
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">
+              Queso and Pico Toasted Ravioli
+            </p>
+            <p class="foodmenu__griditem--disc">
+              A south-of-the-border twist on a St. Louis favorite. Beef ravioli
+              deep fried and topped with our house made spinach con queso and
+              pico de gallo, with sour cream and guacamole
+            </p>
+
+            <p class="foodmenu__griditem--price">10</p>
+          </li>
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">Spicy Spinach and Cheese Dip</p>
+            <p class="foodmenu__griditem--disc">
+              Warm and zesty spinach cheese dip, with fresh vegetables and
+              tortilla chips for dipping
+            </p>
+
+            <p class="foodmenu__griditem--price">9</p>
+          </li>
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">New England Style Crab Cakes</p>
+            <p class="foodmenu__griditem--disc">
+              Four breaded and deep-fried patties made from real crabmeat, green
+              onions, cream cheese and spices, served with chipolte mayonnaise.
+              Try a half order for just $5.50
+            </p>
+
+            <p class="foodmenu__griditem--price">10</p>
+          </li>
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">Jumbo Chicken Wings</p>
+            <p class="foodmenu__griditem--disc">
+              Twelve jumbo chicken wings, deep-fried and coated in your choice
+              of two different sauces (traditional Buffalo or Honey Sriracha).
+              Half order $7
+            </p>
+
+            <p class="foodmenu__griditem--price">13</p>
+          </li>
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">Flat Branch Nachos</p>
+            <p class="foodmenu__griditem--disc">
+              Crisp yellow corn tortilla chips, melted cheddar & jack cheese,
+              jalapeños, tomatoes and scallions. With guacamole, sour cream and
+              salsa. Also available with chicken, Adobo pork or chili for an
+              additional charge.
+            </p>
+
+            <p class="foodmenu__griditem--price">10</p>
+          </li>
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">Beer Battered Onion Rings</p>
+            <p class="foodmenu__griditem--disc">
+              Brew City onion rings with ranch or beer mustard
+            </p>
+
+            <p class="foodmenu__griditem--price">8.5</p>
+          </li>
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">Green Chili Chicken Fingers</p>
+            <p class="foodmenu__griditem--disc">
+              Tender chicken breast breaded with our Green Chili Beer, with
+              choice of sauce: ranch, hot wing sauce, honey mustard, ranch
+              salsa, chipotle-mayo or BBQ
+            </p>
+
+            <p class="foodmenu__griditem--price">10</p>
+          </li>
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">
+              World Famous Chokes ‘n Cheese
+            </p>
+            <p class="foodmenu__griditem--disc">
+              Creamy artichoke and cheese dip in a house-baked bread boule, with
+              carrots, celery and broccoli for dipping
+            </p>
+
+            <p class="foodmenu__griditem--price">10.5</p>
+          </li>
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">Hot Soft Pretzel Twists</p>
+            <p class="foodmenu__griditem--disc">
+              Two large twists, salted or not, with our house-made beer mustard.
+              Add Spicy Spinach Cheese Dip 1
+            </p>
+
+            <p class="foodmenu__griditem--price">8</p>
+          </li>
+        </ul>
+
+        <!-- Entrees -->
+
+        <li class="foodmenu__types--option op-ent food__open">
+          <span class="foodmenu__types--name">Entrees</span>
+          <svg class="foodmenu__types--arrow">
+            <use xlink:href="img/sprite.svg#icon-circle-down"></use>
+          </svg>
+        </li>
+
+        <ul
+          class="
+            foodmenu__gridcontainer foodmenu__gridcontainer--ent
+            food__hidden
+          "
+        >
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">
+              Grilled Salmon with White Balsamic Glaze
+            </p>
+            <p class="foodmenu__griditem--disc">
+              Half-pound grilled salmon fillet, white balsamic glaze, fresh
+              basil, with rice pilaf and sautéed vegetables.<br />
+              Cooked medium
+            </p>
+
+            <p class="foodmenu__griditem--price">20</p>
+          </li>
+
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">
+              Coffee Rubbed Pork Chop w/ Bacon Apple Jam
+            </p>
+            <p class="foodmenu__griditem--disc">
+              Half-pound chop dusted with Z-Best coffee rub, topped with bacon
+              apple jam, with mashers and corn on the cob
+            </p>
+
+            <p class="foodmenu__griditem--price">16</p>
+          </li>
+
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">Low Carb Keto Dinner</p>
+            <p class="foodmenu__griditem--disc">
+              A low carb addition to our menu with Ground Beef or Grilled
+              Chicken, Bacon, Guacamole, Steamed Broccoli with Queso Sauce.Try
+              it with a Grilled Salmon for $21 or a KC Strip for $23
+            </p>
+
+            <p class="foodmenu__griditem--price">14</p>
+          </li>
+
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">
+              Paul’s Six Cheese Mac & Cheese
+            </p>
+            <p class="foodmenu__griditem--disc">
+              Pasta shells, six cheese sauce, garlic butter crouton crumbs,
+              toasted focaccia. With bacon, ham or adobo pork 14<br />
+              Chicken breast 16
+            </p>
+
+            <p class="foodmenu__griditem--price">11</p>
+          </li>
+
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">Al’s KC Strip</p>
+            <p class="foodmenu__griditem--disc">
+              10 to 12 oz Certified Angus Beef® brand KC Strip topped with Al’s
+              Steak Butter, with mashers and sautéed vegetables
+            </p>
+
+            <p class="foodmenu__griditem--price">21</p>
+          </li>
+
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">Adobo Braised Pork Tacos</p>
+            <p class="foodmenu__griditem--disc">
+              Crispy taco shells filled with spicy adobo pork, southwestern slaw
+              and pico de gallo, with saffron rice and applesauce
+            </p>
+
+            <p class="foodmenu__griditem--price">14</p>
+          </li>
+
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">The Paleo Platter</p>
+            <p class="foodmenu__griditem--disc">
+              No dairy, no sugar, no gluten and low carbs. Your choice of a
+              grilled protein with a side of oil-free sauteed vegetables. Choose
+              from ground beef or chicken. Grilled salmon 18 KC Strip 20
+            </p>
+
+            <p class="foodmenu__griditem--price">11</p>
+          </li>
+
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">Flat Branch Catfish & Chips</p>
+            <p class="foodmenu__griditem--disc">
+              Columbia’s favorite! Deep-fried cornmeal breaded catfish fillets,
+              with fries and tartar sauce
+            </p>
+
+            <p class="foodmenu__griditem--price">13</p>
+          </li>
+
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">
+              Sausage and Chicken Bayou Pasta
+            </p>
+            <p class="foodmenu__griditem--disc">
+              Crescent City® Andouille sausage and grilled chicken over penne
+              pasta, with green peppers, onion, and spicy Cajun cream sauce,
+              with toasted focacci
+            </p>
+
+            <p class="foodmenu__griditem--price">14</p>
+          </li>
+        </ul>
+
+        <!-- burger -->
+
+        <li class="foodmenu__types--option op-bur food__open">
+          <span class="foodmenu__types--name">Burgers</span>
+          <svg class="foodmenu__types--arrow">
+            <use xlink:href="img/sprite.svg#icon-circle-down"></use>
+          </svg>
+        </li>
+
+        <ul
+          class="
+            foodmenu__gridcontainer foodmenu__gridcontainer--bur
+            food__hidden
+          "
+        >
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">Classic Pub Burger</p>
+            <p class="foodmenu__griditem--disc">
+              One-half pound of lean Certified Angus Beef ground beef, with
+              cheese on our toasted artisan bun. Substitute a chicken breast or
+              our Veggie Burger for no charge
+            </p>
+
+            <p class="foodmenu__griditem--price">12</p>
+          </li>
+
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">Bacon Cheese Pub Burger</p>
+            <p class="foodmenu__griditem--disc">
+              Our Pub Burger topped with bacon and your choice of cheese
+            </p>
+
+            <p class="foodmenu__griditem--price">13</p>
+          </li>
+
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">Flat Branch Burger</p>
+            <p class="foodmenu__griditem--disc">
+              Our Classic Pub Burger topped with Chokes ‘n Cheese
+            </p>
+
+            <p class="foodmenu__griditem--price">13</p>
+          </li>
+
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">Bacon Apple Jam Burger</p>
+            <p class="foodmenu__griditem--disc">
+              Our classic 8 oz pub burger with bacon apple jam and Boursin
+              cheese
+            </p>
+
+            <p class="foodmenu__griditem--price">13</p>
+          </li>
+
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">Mushroom Swiss Burger</p>
+            <p class="foodmenu__griditem--disc">
+              Our classic Pub Burger covered in sautéed mushrooms and Swiss
+              cheese
+            </p>
+
+            <p class="foodmenu__griditem--price">13</p>
+          </li>
+
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">4 Alarm Burger</p>
+            <p class="foodmenu__griditem--disc">
+              Our Classic Pub Burger blackened, with buffalo sauce, jalapenos,
+              and pepper jack cheese
+            </p>
+
+            <p class="foodmenu__griditem--price">13</p>
+          </li>
+
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">The Big Chief Burger</p>
+            <p class="foodmenu__griditem--disc">
+              Our Classic Pub Burger topped with a fried egg, bacon, and cheddar
+              cheese
+            </p>
+
+            <p class="foodmenu__griditem--price">14</p>
+          </li>
+
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">Black & Bleu Burger</p>
+            <p class="foodmenu__griditem--disc">
+              Our Pub Burger covered with Cajun seasonings then blackened and
+              topped with Bleu cheese
+            </p>
+
+            <p class="foodmenu__griditem--price">13</p>
+          </li>
+
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">Texas Burger</p>
+            <p class="foodmenu__griditem--disc">
+              Our Pub Burger topped with our own BBQ sauce, sauteed onions,
+              bacon and jack cheese
+            </p>
+
+            <p class="foodmenu__griditem--price">13</p>
+          </li>
+        </ul>
+
+        <!-- Sandwiches -->
+
+        <li class="foodmenu__types--option op-san food__open">
+          <span class="foodmenu__types--name">Sandwiches</span>
+          <svg class="foodmenu__types--arrow">
+            <use xlink:href="img/sprite.svg#icon-circle-down"></use>
+          </svg>
+        </li>
+
+        <ul
+          class="
+            foodmenu__gridcontainer foodmenu__gridcontainer--san
+            food__hidden
+          "
+        >
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">Adobo Pork Burrito</p>
+            <p class="foodmenu__griditem--disc">
+              Adobo pork, black beans, rice, and pico de gallo in a flour
+              tortilla, topped with spinach queso
+            </p>
+
+            <p class="foodmenu__griditem--price">13</p>
+          </li>
+
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">
+              Pimento and Pulled Pork Grilled Cheese
+            </p>
+            <p class="foodmenu__griditem--disc">
+              House-made Pimento Cheese (pimento, green onion, pickle),with
+              slow-smoked pulled pork on grilled rye bread
+            </p>
+
+            <p class="foodmenu__griditem--price">13</p>
+          </li>
+
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">Sweet & Spicy Pulled Pork</p>
+            <p class="foodmenu__griditem--disc">
+              Sweet, spicy house-smoked pulled pork topped with spicy apple slaw
+              on an artisan bun
+            </p>
+
+            <p class="foodmenu__griditem--price">12</p>
+          </li>
+
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">Thick Cut BLT</p>
+            <p class="foodmenu__griditem--disc">
+              Thick cut smoked bacon, with lettuce and tomato on foccacia.
+              Chipolte mayo.
+            </p>
+
+            <p class="foodmenu__griditem--price">12</p>
+          </li>
+
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">Spicy Grilled Ahi Wrap</p>
+            <p class="foodmenu__griditem--disc">
+              Sliced tuna, mixed greens, scallions, carrots, pickled ginger,
+              saffron rice, wasabi cream and honey sriracha
+            </p>
+
+            <p class="foodmenu__griditem--price">14</p>
+          </li>
+
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">Grilled Portobello Sandwich</p>
+            <p class="foodmenu__griditem--disc">
+              Marinated and grilled Portobello mushroom caps, shredded carrots,
+              creamy boursin cheese on a spent grain bun
+            </p>
+
+            <p class="foodmenu__griditem--price">10</p>
+          </li>
+
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">Classic Reuben on Rye</p>
+            <p class="foodmenu__griditem--disc">
+              Thin pastrami or smoked turkey, sauerkraut, and Swiss cheese, on
+              toasted rye with house-made 1000 Island dressing
+            </p>
+
+            <p class="foodmenu__griditem--price">11</p>
+          </li>
+
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">
+              California Chicken Club Sandwich
+            </p>
+            <p class="foodmenu__griditem--disc">
+              Grilled chicken breast slices, avocado, and bacon on toasted
+              focaccia, with honey mustard sauce on the side
+            </p>
+
+            <p class="foodmenu__griditem--price">12</p>
+          </li>
+
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">Classic Pub Dip</p>
+            <p class="foodmenu__griditem--disc">
+              Thinly-sliced house-smoked prime rib, jack cheese, and sautéed
+              onions on a toasted sourdough baguette, with au jus and
+              stout-horseradish cream sauce
+            </p>
+
+            <p class="foodmenu__griditem--price">12</p>
+          </li>
+
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">The Hobgobbler</p>
+            <p class="foodmenu__griditem--disc">
+              Smoked turkey, Swiss cheese, and sautéed onions and mushrooms, on
+              a toasted sourdough baguette, with BBQ sauce
+            </p>
+
+            <p class="foodmenu__griditem--price">10</p>
+          </li>
+
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">Bacon Chicken Wrap</p>
+            <p class="foodmenu__griditem--disc">
+              Sliced grilled chicken breast, strips of thick-cut bacon, fresh
+              tomatoes, crisp lettuce, cheddar and jack cheese in a tomato-flour
+              tortilla, with ranch salsa dressing
+            </p>
+
+            <p class="foodmenu__griditem--price">12</p>
+          </li>
+
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">
+              Philly Cheese Steak (or Chicken) Sandwich
+            </p>
+            <p class="foodmenu__griditem--disc">
+              Thinly sliced Certified Angus Beef® brand beef or chunks of tender
+              chicken, sautéed onions and peppers, American cheese, sourdough
+              baguette, with stout-horseradish cream sauce
+            </p>
+
+            <p class="foodmenu__griditem--price">11</p>
+          </li>
+        </ul>
+
+        <!-- pizza        -->
+
+        <li class="foodmenu__types--option op-piz food__open">
+          <span class="foodmenu__types--name">Brick Oven Pizza</span>
+          <svg class="foodmenu__types--arrow">
+            <use xlink:href="img/sprite.svg#icon-circle-down"></use>
+          </svg>
+        </li>
+
+        <ul
+          class="
+            foodmenu__gridcontainer foodmenu__gridcontainer--piz
+            food__hidden
+          "
+        >
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">Veggie Pesto Pizza</p>
+            <p class="foodmenu__griditem--disc">
+              House-made pesto, red and green bell peppers, red onions, broccoli
+              and mushrooms, mozzarella
+            </p>
+
+            <p class="foodmenu__griditem--price">11</p>
+          </li>
+
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">Flat Branch Supreme</p>
+            <p class="foodmenu__griditem--disc">
+              Our sour dough crust topped with thick cut pepperoni, Italian
+              sausage, green peppers, red onions and black olives. Baked in our
+              stone hearth oven
+            </p>
+
+            <p class="foodmenu__griditem--price">11</p>
+          </li>
+
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">Meat Lover’s Delight</p>
+            <p class="foodmenu__griditem--disc">
+              Thick-cut pepperoni, house-made Italian sausage, ham, bacon and
+              mozzarella cheese
+            </p>
+
+            <p class="foodmenu__griditem--price">10.5</p>
+          </li>
+
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">Cheese Pizza</p>
+            <p class="foodmenu__griditem--disc">
+              No frills, just a simple, great tasting pizza with our own
+              marinara sauce and mozzarella cheese.
+            </p>
+
+            <p class="foodmenu__griditem--price">8</p>
+          </li>
+
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">Pizza Margherita</p>
+            <p class="foodmenu__griditem--disc">
+              The classic! Diced tomatoes, garlic, basil, fresh mozzarella and
+              Parmesan
+            </p>
+
+            <p class="foodmenu__griditem--price">10</p>
+          </li>
+
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">Garlic Five Cheese Pizza</p>
+            <p class="foodmenu__griditem--disc">
+              Brushed with olice oil, then loaded with garlic, Asiago, Parmesan,
+              mozzarella, cheddar and jack cheese
+            </p>
+
+            <p class="foodmenu__griditem--price">9</p>
+          </li>
+
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">Missouri BBQ Chicken</p>
+            <p class="foodmenu__griditem--disc">
+              Grilled chicken breast over our house-made BBQ sauce, cilantro,
+              red onions, cheddar and jack cheeses
+            </p>
+
+            <p class="foodmenu__griditem--price">10</p>
+          </li>
+
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">Classic Pepperoni Pizza</p>
+            <p class="foodmenu__griditem--disc">
+              Thick-cut pepperoni and mozzarella cheese
+            </p>
+
+            <p class="foodmenu__griditem--price">10</p>
+          </li>
+
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">
+              Italian Sausage and Mushroom Pizza
+            </p>
+            <p class="foodmenu__griditem--disc">
+              House-made Italian sausage, mushrooms and mozzarella
+            </p>
+
+            <p class="foodmenu__griditem--price">10</p>
+          </li>
+        </ul>
+
+        <!-- soups and salads -->
+
+        <li class="foodmenu__types--option op-sal food__open">
+          <span class="foodmenu__types--name">Soups & Salads</span>
+          <svg class="foodmenu__types--arrow">
+            <use xlink:href="img/sprite.svg#icon-circle-down"></use>
+          </svg>
+        </li>
+
+        <ul
+          class="
+            foodmenu__gridcontainer foodmenu__gridcontainer--sal
+            food__hidden
+          "
+        >
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">Flat Branch Savory Chili</p>
+            <p class="foodmenu__griditem--disc">
+              Topped with cheese and green onions
+            </p>
+
+            <p class="foodmenu__griditem--price">Bowl $5/Cup 4</p>
+          </li>
+
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">Creamy Corn Chowder</p>
+            <p class="foodmenu__griditem--disc">Corn, potatoes, onions</p>
+
+            <p class="foodmenu__griditem--price">$Bowl 5 Cup 4</p>
+          </li>
+
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">
+              Chicken Finger Bacon Ranch Salad
+            </p>
+            <p class="foodmenu__griditem--disc">
+              Our famous Green Chili Chicken Fingers, plus smoked bacon,
+              lettuce, cherry tomatoes, red onions, cheddar and jack cheese,
+              croutons, ranch dressing
+            </p>
+
+            <p class="foodmenu__griditem--price">11</p>
+          </li>
+
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">The Summer Brewhouse Salad</p>
+            <p class="foodmenu__griditem--disc">
+              Spring Mix, Strawberries, Red Onion, Grape Tomatoes, Pecans, Bleu
+              Cheese crumbles, Honey Wheat Vinaigrette
+            </p>
+
+            <p class="foodmenu__griditem--price">11</p>
+          </li>
+
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">Flat Branch Dinner Salad</p>
+            <p class="foodmenu__griditem--disc">
+              Chopped lettuce, grape tomatoes, carrots, red onion, and
+              house-made croutons
+            </p>
+
+            <p class="foodmenu__griditem--price">5</p>
+          </li>
+
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">Southwest Chicken Taco Salad</p>
+            <p class="foodmenu__griditem--disc">
+              Grilled chicken, tortilla strips, chopped lettuce, black olives,
+              diced tomatoes, scallions, cheddar and jack cheese,with ranch
+              salsa dressing
+            </p>
+
+            <p class="foodmenu__griditem--price">12</p>
+          </li>
+
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">Charbroiled Romaine Salad</p>
+            <p class="foodmenu__griditem--disc">
+              Half-head of grilled romaine lettuce, grilled chicken breast,
+              Parmesan cheese, and house-made croutons
+            </p>
+
+            <p class="foodmenu__griditem--price">$11</p>
+          </li>
+
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">Caesar with Grilled Chicken</p>
+            <p class="foodmenu__griditem--disc">
+              Chopped lettuce, red onions, grape tomatoes, croutons, parmesan
+              cheese topped with a grilled chicken breast. Served with a sent
+              grain roll and our pub made Caesar dressing
+            </p>
+
+            <p class="foodmenu__griditem--price">11</p>
+          </li>
+
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name"></p>
+            <p class="foodmenu__griditem--disc">
+              Dressings: Ranch, Bleu Cheese, Ranch Salsa, Honey Wheat
+              Vinaigrette, Caesar, Honey Mustard, Oil and Vinegar Upgrade your
+              salad with a grilled chicken breast for $5 or a grilled salmon
+              filet for $12
+            </p>
+
+            <p class="foodmenu__griditem--price"></p>
+          </li>
+        </ul>
+
+        <!-- vegetarian                 -->
+
+        <li class="foodmenu__types--option op-veg food__open">
+          <span class="foodmenu__types--name">Vegetarian</span>
+          <svg class="foodmenu__types--arrow">
+            <use xlink:href="img/sprite.svg#icon-circle-down"></use>
+          </svg>
+        </li>
+
+        <ul
+          class="
+            foodmenu__gridcontainer foodmenu__gridcontainer--veg
+            food__hidden
+          "
+        >
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">Grilled Portobello Dinner</p>
+            <p class="foodmenu__griditem--disc">
+              Marinated and grilled Portobello mushroom served over saffron
+              rice, with sautéed vegetables and a spent grain roll
+            </p>
+
+            <p class="foodmenu__griditem--price">12</p>
+          </li>
+
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">Veggie Pesto Pizza</p>
+            <p class="foodmenu__griditem--disc">
+              House-made pesto, red and green bell peppers, red onions, broccoli
+              and mushrooms, mozzarella
+            </p>
+
+            <p class="foodmenu__griditem--price">11</p>
+          </li>
+
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">Grilled Portobello Sandwich</p>
+            <p class="foodmenu__griditem--disc">
+              Marinated and grilled Portobello mushroom caps, shredded carrots,
+              creamy boursin cheese on a spent grain bun
+            </p>
+
+            <p class="foodmenu__griditem--price">10</p>
+          </li>
+
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">
+              The Flat Branch Veggie Burger
+            </p>
+            <p class="foodmenu__griditem--disc">
+              House-made patty of oats, rice, tofu, spinach, red peppers, pecans
+              and portobello mushroom, choice of cheese, whole wheat spent grain
+              bun, basil pesto
+            </p>
+
+            <p class="foodmenu__griditem--price">10.5</p>
+          </li>
+
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">Pizza Margherita</p>
+            <p class="foodmenu__griditem--disc">
+              The classic! Diced tomatoes, garlic, basil, fresh mozzarella and
+              Parmesan
+            </p>
+
+            <p class="foodmenu__griditem--price">10</p>
+          </li>
+
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">Garlic Five Cheese Pizza</p>
+            <p class="foodmenu__griditem--disc">
+              Brushed with olice oil, then loaded with garlic, Asiago, Parmesan,
+              mozzarella, cheddar and jack cheese
+            </p>
+
+            <p class="foodmenu__griditem--price">9</p>
+          </li>
+
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">Spicy Spinach and Cheese Dip</p>
+            <p class="foodmenu__griditem--disc">
+              Warm and zesty spinach cheese dip, with fresh vegetables and
+              tortilla chips for dipping
+            </p>
+
+            <p class="foodmenu__griditem--price">9</p>
+          </li>
+
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">Flat Branch Nachos</p>
+            <p class="foodmenu__griditem--disc">
+              Crisp yellow corn tortilla chips, melted cheddar & jack cheese,
+              jalapeños, tomatoes and scallions. With guacamole, sour cream and
+              salsa. Also available with chicken, Adobo pork or chili for an
+              additional charge.
+            </p>
+
+            <p class="foodmenu__griditem--price">10</p>
+          </li>
+
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">
+              World Famous Chokes ‘n Cheese
+            </p>
+            <p class="foodmenu__griditem--disc">
+              Creamy artichoke and cheese dip in a house-baked bread boule, with
+              carrots, celery and broccoli for dipping
+            </p>
+
+            <p class="foodmenu__griditem--price">10.5</p>
+          </li>
+        </ul>
+
+        <!-- kids menu -->
+
+        <li class="foodmenu__types--option op-kid food__open">
+          <span class="foodmenu__types--name">Kid's Menu</span>
+          <svg class="foodmenu__types--arrow">
+            <use xlink:href="img/sprite.svg#icon-circle-down"></use>
+          </svg>
+        </li>
+
+        <ul
+          class="
+            foodmenu__gridcontainer foodmenu__gridcontainer--kid
+            food__hidden
+          "
+        >
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">Kid’s Sausage Pizza</p>
+            <p class="foodmenu__griditem--disc"></p>
+
+            <p class="foodmenu__griditem--price">4</p>
+          </li>
+
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">Kid’s Pepperoni Pizza</p>
+            <p class="foodmenu__griditem--disc"></p>
+
+            <p class="foodmenu__griditem--price">4</p>
+          </li>
+
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">Kid’s Cheese Pizza</p>
+            <p class="foodmenu__griditem--disc"></p>
+
+            <p class="foodmenu__griditem--price">3</p>
+          </li>
+
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">Kid’s Pasta</p>
+            <p class="foodmenu__griditem--disc"></p>
+
+            <p class="foodmenu__griditem--price">4</p>
+          </li>
+
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">Kid Cheese Burger</p>
+            <p class="foodmenu__griditem--disc"></p>
+
+            <p class="foodmenu__griditem--price">5</p>
+          </li>
+
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">Kid Burger</p>
+            <p class="foodmenu__griditem--disc"></p>
+
+            <p class="foodmenu__griditem--price">4</p>
+          </li>
+
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">Kid’s Catfish Sticks</p>
+            <p class="foodmenu__griditem--disc"></p>
+
+            <p class="foodmenu__griditem--price">4</p>
+          </li>
+
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">Dino Chicken Nuggets</p>
+            <p class="foodmenu__griditem--disc"></p>
+
+            <p class="foodmenu__griditem--price">4</p>
+          </li>
+
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">Kid’s Pretzel</p>
+            <p class="foodmenu__griditem--disc"></p>
+
+            <p class="foodmenu__griditem--price">3</p>
+          </li>
+        </ul>
+
+        <!-- desserts                -->
+
+        <li class="foodmenu__types--option op-des food__open">
+          <span class="foodmenu__types--name">Desserts</span>
+          <svg class="foodmenu__types--arrow">
+            <use xlink:href="img/sprite.svg#icon-circle-down"></use>
+          </svg>
+        </li>
+
+        <ul
+          class="
+            foodmenu__gridcontainer foodmenu__gridcontainer--des
+            food__hidden
+          "
+        >
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">Pecan Pie Ala Mode</p>
+            <p class="foodmenu__griditem--disc">
+              House-made with Arbuckle’s ice cream, whipped cream
+            </p>
+
+            <p class="foodmenu__griditem--price">8</p>
+          </li>
+
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">Giant Chocolate Chip Cookie</p>
+            <p class="foodmenu__griditem--disc">
+              The same enormous house-made chocolate chip cookie from our
+              Chocolate Chip Cookie Sundae, without all the fixings
+            </p>
+
+            <p class="foodmenu__griditem--price">2</p>
+          </li>
+
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">Stout Brownie Sundae</p>
+            <p class="foodmenu__griditem--disc">
+              A rich chocolate brownie made with Oil Change Oatmeal Stout,
+              topped with Arbuckle’s ice cream, whipped cream and chocolate
+              syrup. Enough to share, so ask for extra spoons!
+            </p>
+
+            <p class="foodmenu__griditem--price">6</p>
+          </li>
+
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">Chocolate Chip Cookie Sundae</p>
+            <p class="foodmenu__griditem--disc">
+              A gooey, fresh-baked chocolate chip cookie topped with Arbuckle’s
+              French Vanilla ice cream, whipped cream and chocolate syrup
+            </p>
+
+            <p class="foodmenu__griditem--price">6</p>
+          </li>
+
+          <li class="foodmenu__griditem">
+            <p class="foodmenu__griditem--name">
+              Arbuckles Ice Cream (made at Mizzou!)
+            </p>
+            <p class="foodmenu__griditem--disc">
+              Tiger Stripe, French Vanilla, or our flavor of the week.
+            </p>
+
+            <p class="foodmenu__griditem--price">3</p>
+          </li>
+        </ul>
+      </ul>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__copy">
+        &#169;2021 FLATBRANCH PUB AND BREWING
+        <a href="https://www.facebook.com/FlatBranch">
+          <svg class="footer__img">
+            <use xlink:href="img/sprite.svg#icon-facebook"></use>
+          </svg>
+        </a>
+        <a href="https://www.instagram.com/flatbranchpub/?hl=en">
+          <svg class="footer__img">
+            <use xlink:href="img/sprite.svg#icon-instagram"></use>
+          </svg>
+        </a>
+        <a href="https://twitter.com/FlatBranchPub">
+          <svg class="footer__img">
+            <use xlink:href="img/sprite.svg#icon-twitter"></use>
+          </svg>
+        </a>
+        <a href="https://www.yelp.com/biz/flat-branch-pub-and-brewing-columbia">
+          <svg class="footer__img">
+            <use xlink:href="img/sprite.svg#icon-yelp"></use>
+          </svg>
+        </a>
+      </div>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>

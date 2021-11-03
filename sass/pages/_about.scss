@@ -1,0 +1,24 @@
+.about {
+  display: flex;
+  justify-content: center;
+
+  &__body {
+    background-image: url(https://bloximages.newyork1.vip.townnews.com/columbiamissourian.com/content/tncms/assets/v3/editorial/c/e6/ce6068f8-6254-11e9-b8d2-939a7ea85084/5cb9430f125ae.image.jpg);
+    // background-position: center center;
+    background-repeat: no-repeat;
+    // background-attachment: fixed;
+    background-size: cover;
+    // width: fit-content;
+  }
+
+  &__text {
+    color: $color-text-blue-grey;
+    text-align: center;
+    padding: 3rem;
+    font-size: 3rem;
+    font-weight: 500;
+
+    margin-top: 10rem;
+    width: 60vw;
+  }
+}

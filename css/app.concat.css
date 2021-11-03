@@ -1,0 +1,265 @@
+
+@keyframes initialName {
+  0% {
+    opacity: 0;
+    transform: translateX(-8rem); }
+  80% {
+    transform: translateX(1rem); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
+
+@keyframes menuBoop {
+  0% {
+    transform: rotate(0); }
+  50% {
+    transform: rotate(0.1turn); }
+  100% {
+    transform: rotate(0); } }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: "lato", sans-serif; }
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit; }
+
+.header__name {
+  color: #f1faee;
+  font-weight: 700;
+  letter-spacing: 0.5rem;
+  font-size: 5rem; }
+
+.header__since {
+  color: #f1faee;
+  font-size: 3rem;
+  font-family: serif;
+  font-style: italic;
+  letter-spacing: 1.75rem; }
+
+.menuContainer {
+  color: #f1faee;
+  background-color: rgba(0, 0, 0, 0.9);
+  font-size: 2.5rem;
+  border-radius: 10px; }
+  .menuContainer__items:hover {
+    background-image: linear-gradient(to right, #ccdbfd, #abc4ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent; }
+  .menuContainer__icons:hover {
+    fill: #abc4ff; }
+
+.popoutMenu__container {
+  color: #f1faee;
+  background-color: rgba(0, 0, 0, 0.8);
+  font-size: 3.5rem;
+  letter-spacing: 0.75rem; }
+
+.popoutMenu__item:hover {
+  font-size: 3.7rem;
+  letter-spacing: 0.8rem;
+  background-image: linear-gradient(to right, #ccdbfd, #abc4ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent; }
+
+.row {
+  display: flex;
+  justify-content: space-evenly; }
+
+.col-1-of-3 {
+  margin-bottom: 5rem;
+  background-image: linear-gradient(to right bottom, #f5c86c, #a87f26);
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.35);
+  border-radius: 4px;
+  height: 60vh;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.card__img {
+  width: 10rem;
+  height: 14rem;
+  transform: translateY(4rem);
+  transition: all 0.6s;
+  margin-bottom: 2rem; }
+
+.card__name {
+  color: #fff;
+  font-size: 3.6rem;
+  transform: translateY(7rem);
+  transition: all 0.6s; }
+
+.card__abv {
+  color: #fff;
+  font-size: 3rem;
+  transform: translateY(7rem);
+  transition: all 0.6s;
+  margin-bottom: 2rem;
+  margin-top: 1rem; }
+
+.card__description {
+  color: transparent;
+  font-size: 1.5rem;
+  padding: 1rem;
+  text-align: center;
+  transform: translateY(20rem) scale(0.01);
+  transition: all 0.8s; }
+
+.card:hover {
+  transform: scale(1.02); }
+
+.card:hover .card__img {
+  transform: translateY(1rem) scale(1.1); }
+
+.card:hover .card__abv,
+.card:hover .card__name {
+  transform: translateY(0) scale(1.1); }
+
+.card:hover .card__description {
+  color: #fff;
+  transform: translateY(0) scale(1); }
+
+.siteheader {
+  background-image: linear-gradient(to right bottom, #2e2d2d, #020100);
+  width: 100%;
+  height: 25vh;
+  margin-bottom: 6rem;
+  clip-path: polygon(0 0, 100% 0, 100% 20vh, 0 100%);
+  display: flex;
+  align-items: center; }
+  .siteheader__img {
+    padding: 0 0 2rem 1rem; }
+  .siteheader__text {
+    color: #fff;
+    font-size: 7rem;
+    font-weight: 700;
+    padding: 0 0 2rem 15rem;
+    font-family: "MonteCarlo", cursive;
+    letter-spacing: 0.5rem; }
+
+.foodmenu__types {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .foodmenu__types--option {
+    background-color: #000;
+    color: #fff;
+    font-size: 2.5rem;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    width: 40%;
+    border-radius: 2%;
+    padding: 1.5rem;
+    margin: 1.5rem;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5); }
+
+.header__name {
+  margin-left: 12rem;
+  position: absolute;
+  animation-name: initialName;
+  animation-duration: 1s;
+  animation-timing-function: ease-out; }
+
+.header__since {
+  position: relative;
+  top: 5rem;
+  left: 52rem; }
+
+.menuContainer {
+  min-height: 22vh;
+  width: 22%;
+  height: 23%;
+  padding: 1rem;
+  position: fixed;
+  top: 33rem;
+  left: 26rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+  .menuContainer__items {
+    display: flex;
+    align-items: center;
+    padding: 0.7rem; }
+    .menuContainer__items:hover {
+      transform: translateY(-0.25rem); }
+  .menuContainer__icons {
+    fill: #f1faee;
+    height: 4rem;
+    width: 4rem;
+    padding-right: 0.9rem;
+    transition: all 0.8s; }
+    .menuContainer__icons:hover {
+      transform: rotateY(360deg); }
+
+.menunav__icon {
+  fill: #f1faee;
+  height: 7rem;
+  width: 7rem;
+  position: fixed;
+  top: 1rem;
+  right: 10rem;
+  z-index: 10; }
+  .menunav__icon-active {
+    fill: #f1faee;
+    height: 5rem;
+    width: 5rem;
+    position: fixed;
+    top: 2rem;
+    right: 12rem;
+    opacity: 0;
+    z-index: 10; }
+  .menunav__icon:hover {
+    animation-name: menuBoop;
+    animation-duration: 600ms;
+    animation-delay: 100ms; }
+
+.popoutMenu__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  top: 10rem;
+  right: 0;
+  height: 80vh;
+  opacity: 0;
+  width: 0;
+  z-index: 10; }
+
+.active {
+  opacity: 1;
+  width: 20%; }
+
+.active__menu--icon {
+  opacity: 0; }
+
+.popoutMenu__item:hover {
+  transform: translateY(-0.5rem); }
+
+.popoutMenu__item:active {
+  transform: translateY(0); }
+
+.main__body {
+  background-image: url(https://bloximages.newyork1.vip.townnews.com/columbiamissourian.com/content/tncms/assets/v3/editorial/c/e6/ce6068f8-6254-11e9-b8d2-939a7ea85084/5cb9430f125ae.image.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
+
+.beerbody {
+  background-color: #e9ecef; }

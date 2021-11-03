@@ -1,0 +1,93 @@
+.foodmenu {
+  &__types {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &--option {
+      background-color: $color-black;
+      color: $color-white;
+      font-size: 2.5rem;
+      letter-spacing: 0.2rem;
+      text-align: center;
+      cursor: pointer;
+      width: 45%;
+      border-radius: 2%;
+      padding: 1.5rem;
+      margin: 1.5rem;
+      box-shadow: 2px 4px 6px rgba($color-black, 0.5);
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      transition: all 0.2s;
+
+      &:hover {
+        transform: scale(1.025);
+        box-shadow: 3.5px 5.5px 5.5px rgba($color-black, 0.6);
+      }
+
+      &:hover > svg {
+        fill: rgba($color-white, 1);
+      }
+
+      &:active {
+        transform: scale(1);
+        box-shadow: 2px 4px 6px rgba($color-black, 0.5);
+      }
+
+      &:active > svg {
+        fill: rgba($color-medium-blue, 1);
+      }
+    }
+
+    &--name {
+      margin: auto;
+    }
+
+    &--arrow {
+      fill: rgba($color-white, 0);
+      height: 2.5rem;
+      width: 2.5rem;
+
+      &-close {
+        fill: $color-black;
+        height: 4rem;
+        width: 4rem;
+        position: fixed;
+        right: 5rem;
+        top: 28rem;
+        z-index: 12;
+
+        display: none;
+
+        @media (max-width: 1150px) {
+          right: 3rem;
+        }
+
+        @media (max-width: 900px) {
+          right: 1rem;
+        }
+
+        @media (max-width: 600px) {
+          height: 3rem;
+          width: 3rem;
+        }
+      }
+    }
+  }
+}
+
+.food__hidden {
+  display: none;
+}
+
+.food__visable {
+  display: grid;
+}
+
+.food__close--visable {
+  display: block;
+}
