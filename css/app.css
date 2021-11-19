@@ -52,6 +52,15 @@ a:active {
   background-color: rgba(0, 0, 0, 0.9);
   font-size: 2.5rem;
   border-radius: 10px; }
+  @media (max-width: 1200px) {
+    .menuContainer {
+      font-size: 2rem; } }
+  @media (max-width: 975px) {
+    .menuContainer {
+      font-size: 1.5rem; } }
+  @media (max-width: 700px) {
+    .menuContainer {
+      font-size: 1.25rem; } }
   .menuContainer__items:hover {
     background-image: linear-gradient(to right, #ccdbfd, #abc4ff);
     -webkit-background-clip: text;
@@ -160,7 +169,7 @@ a:active {
     color: #fff;
     font-size: 7rem;
     font-weight: 700;
-    font-family: "MonteCarlo", serif;
+    font-family: 'MonteCarlo', serif;
     letter-spacing: 0.5rem;
     justify-self: center; }
     @media (min-width: 1600px) {
@@ -178,10 +187,28 @@ a:active {
     .siteheader__home--text {
       font-weight: 400;
       font-size: 6rem;
-      font-family: "Scheherazade New", serif; }
+      font-family: 'Scheherazade New', serif; }
+      @media (max-width: 1450px) {
+        .siteheader__home--text {
+          font-size: 5rem; } }
+      @media (max-width: 1250px) {
+        .siteheader__home--text {
+          font-size: 4rem; } }
+      @media (max-width: 1050px) {
+        .siteheader__home--text {
+          font-size: 3.5rem; } }
+      @media (max-width: 500px) {
+        .siteheader__home--text {
+          font-size: 3rem; } }
+      @media (max-width: 450px) {
+        .siteheader__home--text {
+          font-size: 2.5rem; } }
+      @media (max-width: 375px) {
+        .siteheader__home--text {
+          font-size: 2rem; } }
 
 .foodmenu {
-  font-family: "Besley", serif; }
+  font-family: 'Besley', serif; }
   .foodmenu__gridcontainer {
     list-style-type: none;
     width: 80%;
@@ -294,13 +321,24 @@ a:active {
 
 .menuContainer {
   min-height: 22vh;
-  width: 22%;
+  width: 20%;
   height: 23%;
   padding: 1rem;
   margin: 25rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-between; }
+  justify-content: center;
+  align-items: center; }
+  @media (max-width: 1400px) {
+    .menuContainer {
+      width: 22%; } }
+  @media (max-width: 975px) {
+    .menuContainer {
+      margin: 22rem; } }
+  @media (max-width: 900px) {
+    .menuContainer {
+      margin: 18rem;
+      width: 25%; } }
   .menuContainer__items {
     display: flex;
     align-items: center;
@@ -315,6 +353,12 @@ a:active {
     width: 4rem;
     padding-right: 0.9rem;
     transition: all 0.8s; }
+    @media (max-width: 1000px) {
+      .menuContainer__icons {
+        height: 3.5rem;
+        width: 3.5rem; } }
+    .menuContainer__icons--phone {
+      padding-right: 2rem; }
 
 .menunav__icon {
   fill: #f1faee;
@@ -329,11 +373,18 @@ a:active {
       position: fixed;
       top: 1rem;
       right: 2rem;
-      z-index: 10; } }
-  @media (max-width: 1200px) {
-    .menunav__icon {
       height: 5rem;
-      width: 5rem; } }
+      width: 5rem;
+      z-index: 10; } }
+  @media (max-width: 650px) {
+    .menunav__icon {
+      height: 4rem;
+      width: 4rem;
+      right: 1rem; } }
+  @media (max-width: 550px) {
+    .menunav__icon {
+      height: 3rem;
+      width: 3rem; } }
   .menunav__icon-active {
     fill: #f1faee;
     height: 5rem;
@@ -461,10 +512,10 @@ a:active {
     background-repeat: no-repeat;
     background-size: cover; }
   .about__text {
-    color: #3d405b;
+    color: #eee;
     text-align: center;
     padding: 3rem;
     font-size: 3rem;
     font-weight: 500;
     margin-top: 10rem;
-    width: 60vw; }
+    width: 40vw; }

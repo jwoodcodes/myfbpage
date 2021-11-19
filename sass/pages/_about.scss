@@ -12,13 +12,14 @@
   }
 
   &__text {
-    color: $color-text-blue-grey;
+    // color: $color-text-blue-grey;
+    color: #eee;
     text-align: center;
     padding: 3rem;
     font-size: 3rem;
     font-weight: 500;
 
     margin-top: 10rem;
-    width: 60vw;
+    width: 40vw;
   }
 }

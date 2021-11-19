@@ -1,31 +1,26 @@
-// .header {
-//   &__name {
-//     margin-left: 12rem;
-//     position: absolute;
-//     animation-name: initialName;
-//     animation-duration: 1s;
-//     animation-timing-function: ease-out;
-//   }
-
-//   &__since {
-//     position: relative;
-//     top: 5rem;
-//     left: 52rem;
-//   }
-// }
-
 .menuContainer {
   min-height: 22vh;
-  width: 22%;
+  width: 20%;
   height: 23%;
   padding: 1rem;
   margin: 25rem;
-  // position: fixed;
-  // top: 33rem;
-  // left: 26rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+
+  @media (max-width: 1400px) {
+    width: 22%;
+  }
+
+  @media (max-width: 975px) {
+    margin: 22rem;
+  }
+
+  @media (max-width: 900px) {
+    margin: 18rem;
+    width: 25%;
+  }
 
   &__items {
     display: flex;
@@ -47,5 +42,14 @@
     width: 4rem;
     padding-right: 0.9rem;
     transition: all 0.8s;
+
+    @media (max-width: 1000px) {
+      height: 3.5rem;
+      width: 3.5rem;
+    }
+
+    &--phone {
+      padding-right: 2rem;
+    }
   }
 }
